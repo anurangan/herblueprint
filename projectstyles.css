@@ -249,16 +249,16 @@ footer {
 .volunteer {
     margin-top: 30px;
     padding: 20px;
-    border: 2px solid rgb(67, 0, 13);
+    border: 2px solid #43000d;
     border-radius: 10px;
-    background-color: white;
+    background-color: white
 }
 
 .btn {
     display: inline-block;
     padding: 10px 20px;
     background-color: rgb(68, 0, 14);
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     border-radius: 10px;
     font-weight: bold;
@@ -266,4 +266,12 @@ footer {
 
 .btn:hover {
     background-color: #4e0000;
+}
+
+.table {
+    margin-top: 30px;
+    padding: 20px;
+    border: 2px solid #43000d;
+    border-radius: 10px;
+    background-color: white
 }
