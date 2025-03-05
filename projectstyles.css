@@ -1,0 +1,269 @@
+/* styles.css */
+
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #570404;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo {
+    max-width: 150px;
+}
+
+nav {
+    background-color: #36000b;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: rgb(190, 168, 133);
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #d3a87f;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #5e0000;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+#border {
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+    border: 10px solid rgb(182, 157, 131);
+}
+.education-container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+.education-container h1 {
+    font-size: 2em;
+    color: #d63384;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.education-container p {
+    font-size: 1.2em;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+/* Table Styles */
+.education-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.education-table th, .education-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.education-table th {
+    background-color: #d63384;
+    color: white;
+    font-size: 1.1em;
+}
+
+.education-table tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+.education-table tr:hover {
+    background-color: #f1f1f1;
+}
+/* Navbar styling (reuse from index.html) */
+.navbar {
+    background-color: #530000;
+    padding: 10px;
+    text-align: center;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    background-color: #4f0000;
+    border-radius: 5px;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    margin-top: 20px;
+}
+/* General Styling */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff5f5;
+    color: #333;
+}
+
+/* Border Styling */
+.border {
+    border: 5px solid rgb(72, 0, 14);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+    background-color: rgb(69, 0, 14);
+    padding: 20px;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Events Section */
+.events {
+    text-align: center;
+    padding: 30px;
+}
+
+.event-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.event {
+    background-color: #fff;
+    border: 2px solid crimson;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px;
+    width: 80%;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.event h2 {
+    color: crimson;
+}
+
+.event p {
+    font-size: 16px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: rgb(88, 1, 18);
+    color: white;
+}
+/* Contact Section */
+.contact {
+    text-align: center;
+    padding: 40px;
+}
+
+.contact-info {
+    margin-bottom: 30px;
+    border: 2px solid rgb(75, 0, 15);
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info a {
+    color: rgb(104, 0, 21);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+.volunteer {
+    margin-top: 30px;
+    padding: 20px;
+    border: 2px solid rgb(67, 0, 13);
+    border-radius: 10px;
+    background-color: #fff5f5;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(68, 0, 14);
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #4e0000;
+}
