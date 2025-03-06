@@ -2,6 +2,7 @@
 
 /* General Styles */
 body {
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f9f9f9;
@@ -11,7 +12,7 @@ body {
 header {
     background-color: #570404;
     padding: 20px;
-    text-align: center;
+    text-align: center;;
 }
 
 .logo {
@@ -19,12 +20,14 @@ header {
 }
 
 nav {
+    font-family: 'Times New Roman', Times, serif;
     background-color: #36000b;
     padding: 10px;
     text-align: center;
 }
 
 nav a {
+    font-family: 'Times New Roman', Times, serif;
     color: rgb(190, 168, 133);
     text-decoration: none;
     margin: 0 15px;
@@ -50,15 +53,14 @@ h1, h2 {
 }
 
 footer {
+    margin-top: auto;
     text-align: center;
     padding: 10px;
     background-color: #5e0000;
     color: white;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-}
+    font-size: 16px
 
+}
 #border {
     width: 200px;
     height: 100px;
@@ -133,14 +135,6 @@ footer {
     border-radius: 5px;
 }
 
-/* Footer */
-.footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #333;
-    color: white;
-    margin-top: 20px;
-}
 /* General Styling */
 body {
     margin: 0;
@@ -215,12 +209,6 @@ nav ul li a:hover {
     font-size: 16px;
 }
 
-/* Footer */
-footer {
-    text-align: center;
-    background-color: rgb(88, 1, 18);
-    color: white;
-}
 /* Contact Section */
 .contact {
     text-align: center;
